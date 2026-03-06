@@ -3,31 +3,19 @@ programa
 	
 	funcao inicio()
 	{
-		cadeia aluno, disciplina
-		real n1, n2, n3, n4, media
-
-		escreva("Digite o nome do aluno:")
-		leia(aluno)
+		real distancia, total_gasto, consumo_medio
 		
-		escreva("\nDigite a disciplina:")
-		leia(disciplina)
-
-		escreva("\nA 1° nota:")
-		leia(n1)
-
-		escreva("\nA 2° nota:")
-		leia(n2)
-
-		escreva("\nA 3° nota:")
-		leia(n3)
-
-		escreva("\nA 4° nota:")
-		leia(n4)
-
-		media = (n1 + n2 + n3 + n4)/4
+		escreva("Digite a distância em km:")
+		leia(distancia)
 		
+		escreva("Digite o total gasto de combustível:")
+		leia(total_gasto)
 
-		escreva("\nA média do aluno é:",media)
+		consumo_medio = distancia / total_gasto
+
+		escreva("Consumo médio do carro: ",consumo_medio)
+		
+		
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -35,7 +23,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 281; 
+ * @POSICAO-CURSOR = 310; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
